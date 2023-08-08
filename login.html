@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choco Heart - Login</title>
+  <!-- Favicon -->
+  <link rel="icon" href="./img/heart.png" type="image/png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+    rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <!-- Form Starts -->
+  <div style="height: 60px; overflow: hidden;" >
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M-0.00,49.98 C120.87,120.98 300.60,-49.98 500.00,49.98 L502.75,-4.01 L-0.00,-0.00 Z" style="stroke: none; fill: #fff"></path>
+    </svg>
+  </div>
+  <section class="form">
+    <div class="container my-5 text-center ">
+      <div class="group m-auto w-75 p-5 border border-3 border-white rounded-5">
+        <h1>Smart Login System</h1>
+        <input id="loginEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+        <input id="loginPass" class="form-control my-3" placeholder="Enter your password" type="password">
+        <p id="message"></p>
+        <a onclick="logIn()" id="loginBtn" class="btn btn-outline-info w-100 my-3">Login</a>
+        <p class="text-white">Don’t have an account? <a class="text-white" href="./signup.html">Sign Up</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Ends -->
+  <!-- JS File -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
