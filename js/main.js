@@ -136,7 +136,7 @@ function logIn() {
   for (var i = 0; i < userData.length; i++) {
     if (userData[i].email.toLowerCase() == emailLogin.value.toLowerCase() && userData[i].password.toLowerCase() == passLogin.value.toLowerCase()) {
       localStorage.setItem("sessionUserName", userData[i].name);
-      btnLogin.setAttribute("href", "index.html");
+      btnLogin.setAttribute("href", "welcome.html");
     }
     else {
       document.getElementById("message").innerHTML = '<span class="text-danger m-3">Incorrect Data! Please re-enter your Data</span>';
@@ -151,7 +151,7 @@ function logIn() {
 
 // Welcome
 function welcome() {
-  document.getElementById("nameOfUser").innerHTML = "Welcome" + userName;
+  document.getElementById("nameOfUser").innerHTML = "Welcome " + userName;
 }
 
 //////////////////////////////////////////////////////////////
